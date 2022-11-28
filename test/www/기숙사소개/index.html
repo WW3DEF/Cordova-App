@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <title>동의과학대학교 기숙사</title>
+</head>
+<body>
+    <div data-theme="b">
+        <div data-role="page" id="home">
+            <div data-role="header" data-theme="b">
+                <h1>기숙사 소개 앱</h1>
+            </div>
+            <div data-role="content" style="text-align:center">
+                    <img src="img/dit_0.jpg" width="100%" >
+                <ul data-role="listview" data-inset="true">
+                    <li><a href="#intro">기숙사 시설현황</a></li>
+                    <li><a href="#movie" data-rel="dialog">기숙사 영상</a></li>
+                    <li><a href="#gallery">기숙사 사진</a></li>
+                </ul>
+            </div>
+            <div data-role="footer" data-position="fixed" data-theme="b">
+                <h1>동의과학대학교_기숙사</h1>
+            </div>
+        </div>
+        
+        <div data-role="page" id="intro" data-theme="b">
+            <div data-role="header" data-theme="b">
+                <a href="#home" data-icon="arrow-l" data-direction="reverse">처음</a>			
+                <h1>기숙사 시설현황</h1>
+            </div>
+            <div data-role="content">
+                    <div  style="text-align:center">
+                        <img src="img/dit_1.jfif" width="100%">
+                    </div>			
+                <div data-role="collapsible-set" data-theme="b" data-content-theme="e">
+                    <div data-role="collapsible" data-collapsed="false">
+                        <h3>시설소개</h3>
+                        <p>쾌적한 시설과 명랑한 면학분위기의 DIT 학생생활관</p>
+                    </div>
+                    <div data-role="collapsible">
+                        <h3>시설물</h3>
+                        <ul>
+                        <p><li>개인시설책상, 옷장, 침대, 욕실, 사물함</li>
+                        <li>공동시설헬스장, 세탁실, 로비, 휴게실(실내,옥외), VIP룸, 게스트룸</li>
+                        <li>호실별 개인 전용 인터넷 설치</li></p>
+                        </ul>
+                    </div>
+                    <div data-role="collapsible" >
+                        <h3>시설 호실 및 모집인원</h3>
+                        <p><li>남자4인1실 / 100실 / 모집인원 - 000명</li>
+                        <li>여자 1관-4인1실 / 79실 / 모집인원 - 000명</li>
+                        <li>여자 2관-4인1실 / 45실 / 모집인원 - 000명</li></p>
+                    </div>
+                </div>
+            </div>
+            <div data-role="footer" data-position="fixed" data-theme="b">
+                <h1>동의과학대학교_기숙사</h1>
+            </div>		
+        </div>
+        
+        <div data-role="page" id="movie" data-theme="b">
+            <div data-role="header" data-position="fixed" data-theme="b">
+                <h1>기숙사 영상</h1>
+            </div>
+            <div data-role="content" >
+                <div class="ui-bar ui-bar-a">동의과학대학교 유튜브채널 기숙사 소개 동영상</div><br/>
+                <li><iframe width="100%" height="400" src="https://www.youtube.com/embed/xi1SdV5ZqNQ?start=31" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li><br/>
+            </div>
+            <div data-role="footer" data-theme="b">
+            </div>
+        </div>
+    
+        <div data-role="page" id="gallery"  data-theme="b">
+            <div data-role="header" data-position="fixed"  data-theme="b">
+                <a href="#home" data-icon="arrow-l" data-direction="reverse">처음</a>
+                <h1>기숙사 사진</h1>
+            </div>
+            <div data-role="content">
+                <ul class="picture">
+                    <li><a href="img/dit3_0.jpg" rel="external"><img src="img/dit3_0.jpg" /></a></li>	
+                    <li><a href="img/dit3_1.jpg" rel="external"><img src="img/dit3_1.jpg" /></a></li>	
+                    <li><a href="img/dit3_2.jpg" rel="external"><img src="img/dit3_2.jpg" /></a></li>	
+                    <li><a href="img/dit3_3.jpg" rel="external"><img src="img/dit3_3.jpg" /></a></li>	
+                    <li><a href="img/dit3_4.jpg" rel="external"><img src="img/dit3_4.jpg" /></a></li>	
+                    <li><a href="img/dit3_5.jpg" rel="external"><img src="img/dit3_5.jpg" /></a></li>	
+                    <li><a href="img/dit3_6.jpg" rel="external"><img src="img/dit3_6.jpg" /></a></li>	
+                    <li><a href="img/dit3_7.jpg" rel="external"><img src="img/dit3_7.jpg" /></a></li>	 
+                    <li><a href="img/dit3_8.jpg" rel="external"><img src="img/dit3_8.jpg" /></a></li>    
+                </ul>
+            </div>
+            <div data-role="footer" data-position="fixed" data-theme="b">
+                <h1>동의과학대학교_기숙사</h1>
+            </div>		
+        </div>
+    </div>	
+</body>
+</html>

@@ -73,3 +73,10 @@ Extra
 ## 7. Node.js 설치
 [[Node.js설치]](https://nodejs.org/ko/)
 ![image](https://user-images.githubusercontent.com/94514664/204345073-c0428313-1906-4c65-8cb7-5204600f686c.png)
+<pre>
+  <code>
+  > node -v (버전확인하기)
+  > npm -v
+  > npm update -g(업데이트)
+  </code>
+</pre>

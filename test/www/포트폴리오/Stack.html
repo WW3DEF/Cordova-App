@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/echarts.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="js/jquery.mobile-1.4.5.min.css"/>
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="cordova.js"></script>
+    <link rel="stylesheet" href="./css/Home.css">
+    <link rel="stylesheet" href="./css/Panel.css">
+    <script src="./js/graph.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div data-role="page" data-theme="a" id="Stack">
+        <div data-role="panel" id="mypanel3" data-display="Reveal" data-theme="a">
+            <div class="area" >
+                <ul class="circles">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                </ul>
+                <a href="" data-role="button" data-icon="delete" data-iconpos="notext" data-rel="close" class="ui-nodisc-icon ui-alt-icon" style="margin-left: 0.4rem;"></a>
+                <hr>
+                <h3 class="panelh3">Menu</h3>
+            <ul data-role="listview">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Stack.html" style="background-color: #6699FF;">Stack</a></li>
+                <li><a href="Project.html">Projects</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+            </div>
+        </div>
+        <div data-role="header" data-theme="b" class="header">
+            <h1>Portpolio</h1>
+            <a href="#mypanel3"><input type="button" value="" data-icon="bullets" data-iconpos="notext"></a>
+        </div>
+        <div data-role="content">
+            <ul class="listgroup">
+                <li class="list-group-item"><img src="./img/html.png" width="70rem"><h3 style="display: inline-BLOCK">HTML 5</h3>
+                <div class="progress" style="width: 30%; margin-bottom: 2rem;">
+                    <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+                </div></li>
+            <li class="list-group-item"><img src="./img/css.png" width="50rem"><h3 style="display: inline-BLOCK">CSS 3</h3>
+            <div class="progress" style="width: 30%; margin-bottom: 2rem;">
+                <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 45%;" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">45%</div>
+            </div></li>
+            <li class="list-group-item"><img src="./img/js.png" width="60rem"><h3 style="display: inline-BLOCK">JavaScript</h3>
+            <div class="progress" style="width: 30%; margin-bottom: 2rem;">
+                <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+            </div></li>
+            <li class="list-group-item"><img src="./img/React.png" width="50rem"><h3 style="display: inline-BLOCK">React</h3>
+            <div class="progress" style="width: 30%;">
+                <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 15%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">15%</div>
+            </div></li>
+            </ul>
+            <div id="container" style="width: 600px;height:400px;position: absolute; top: 90%;"></div>
+        </div>
+        <div data-role="footer" data-theme="b" data-fullscreen="true" data-position="fixed">
+            <h1>Stack</h1>
+        </div>
+    </div>
+</body>
+</html>

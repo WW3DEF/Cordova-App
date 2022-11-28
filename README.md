@@ -90,3 +90,13 @@ Extra
 	>npm update -g cordova
   </code>
 </pre>
+## 9. 안드로이드 코르도바 앱 만들기
+<pre>
+  <code>
+	>cd \HybridProject ( 만들어둔 디렉토리 이동 )
+	>cordova create test com.example.test testApp -d ( 코르도바 프로젝트 생성 )
+	>cd test ( 생성한 코르도바 프로젝트로 이동 )
+	>cordova platform add android ( 코르도바 플랫폼 추가 )
+	>dir platform ( 플랫폼에 디렉토리들 확인 )
+  </code>
+</pre>

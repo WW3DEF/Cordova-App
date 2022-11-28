@@ -80,3 +80,13 @@ Extra
   > npm update -g(업데이트)
   </code>
 </pre>
+## 8. 폰갭(코르도바 설치)
+<pre>
+  <code>
+  	>npm install -g phonegap
+	>npm install -g cordova
+	>cordova -v
+	>npm update -g phonegap
+	>npm update -g cordova
+  </code>
+</pre>

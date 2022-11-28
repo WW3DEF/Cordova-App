@@ -100,3 +100,33 @@ Extra
 	>dir platform ( 플랫폼에 디렉토리들 확인 )
   </code>
 </pre>
+## 10. build.gradle(:app)
+![image](https://user-images.githubusercontent.com/94514664/204346072-3b2dfc59-384c-4ccc-b881-37a45deaed29.png)
+Gradle Scripts에 build.gradle의 2번째 파일에서 Android{} 밑 부분에
+<pre>
+  <code>
+  packagingOptions {
+
+        exclude 'META-INF/DEPENDENCIES.txt'
+
+        exclude 'META-INF/LICENSE.txt'
+
+        exclude 'META-INF/NOTICE.txt'
+
+        exclude 'META-INF/NOTICE'
+
+        exclude 'META-INF/LICENSE'
+
+        exclude 'META-INF/DEPENDENCIES'
+
+        exclude 'META-INF/notice.txt'
+
+        exclude 'META-INF/license.txt'
+
+        exclude 'META-INF/dependencies.txt'
+
+        exclude 'META-INF/LGPL2.1'
+
+    } 추가하기
+  </code>
+</pre>

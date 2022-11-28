@@ -144,11 +144,11 @@ Application 안에
 삭제가 되지 않을 경우에는 Ctrl+Alt+Del => 작업관리자에서 해당 프로세스 작업 끝내기 후에 삭제하기
 
 ## 13. 자신이 만든 프로젝트의 첫 번째 파일이름을 index.html로 변경하고, CDN 방식을 Download 방식으로 변경하기
-index.html
+index.html   
 ![image](https://user-images.githubusercontent.com/94514664/204347609-f980ac42-16fb-4003-bda9-858ecc9f28f9.png)   
-CDN에서
+CDN에서   
 ![image](https://user-images.githubusercontent.com/94514664/204347829-802ce8ca-fe62-40b6-bd0d-0dad877eb0f2.png)   
- Download로
+ Download로   
 ![image](https://user-images.githubusercontent.com/94514664/204347904-94c54625-edc6-4237-ac69-5153805691b6.png)
 
 

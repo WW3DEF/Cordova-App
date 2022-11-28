@@ -131,7 +131,7 @@ Gradle Scripts에 build.gradle의 2번째 파일에서 Android{} 밑 부분에
   </code>
 </pre>
 ## 11. AndroidManifest.xml 수정하기
-![image](https://user-images.githubusercontent.com/94514664/204346662-83ad0db2-5a90-45db-b34d-8f170eacded4.png)
+![image](https://user-images.githubusercontent.com/94514664/204346662-83ad0db2-5a90-45db-b34d-8f170eacded4.png)   
 Application 안에
 <pre>
   <code>

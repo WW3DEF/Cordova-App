@@ -149,7 +149,30 @@ index.html
 CDN에서   
 ![image](https://user-images.githubusercontent.com/94514664/204347829-802ce8ca-fe62-40b6-bd0d-0dad877eb0f2.png)   
  Download로   
-![image](https://user-images.githubusercontent.com/94514664/204347904-94c54625-edc6-4237-ac69-5153805691b6.png)
+![image](https://user-images.githubusercontent.com/94514664/204347904-94c54625-edc6-4237-ac69-5153805691b6.png)   
+그리고 아래에다가
+<pre>
+<code>
+<script src="cordova.js"></script>
+</code>
+</pre>
+코드 추가하기
 
+## 14. 프로젝트 폴더에 있는 모든 파일을 cordova로 만들어둔 폴더 아래에 있는 www 폴더로 복사
+![image](https://user-images.githubusercontent.com/94514664/204348529-ebb2c9cb-ced6-4c78-8f68-8c13cf9fe0c9.png)
 
+## 15. Android Studio AVD로 실행시
+15.1 Android Studio를 실행
+15.2 > cordova emulate android를 입력
+
+## 16. 실제 기기에서 실행시
+16.1 삼성 usb 드라이버 설치
+16.2 휴대폰을 usb 디버깅 상태로 설정
+16.3 컴퓨터와 폰 연결
+16.4 >cordova run android를 입력
+
+# AVD로 실행한 결과
+![image](https://user-images.githubusercontent.com/94514664/204349313-616bddee-7470-4d4e-a15c-a6e62bc954e9.png)   
+![image](https://user-images.githubusercontent.com/94514664/204349555-9a249cdd-7085-411c-8b52-825d0c603342.png)   
+![image](https://user-images.githubusercontent.com/94514664/204349671-59160a95-53f8-4bd5-94eb-f708fab34abc.png)
 

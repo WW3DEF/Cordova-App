@@ -52,7 +52,7 @@ Extra
   </code>
 </pre>
 
-### 6. 환경 변수 설정 (윈도우+x => 시스템=> 고급시스템설정)
+## 6. 환경 변수 설정 (윈도우+x => 시스템=> 고급시스템설정)
 <pre>
   <code>
   	JAVA_HOME 		c:\progrqm files\java\jdk1.8--
@@ -70,3 +70,6 @@ Extra
 		c:\HybridApp\apace-ant-1.9.16\bin
   </code>
 </pre>
+## 7. Node.js 설치
+[[Node.js설치]](https://nodejs.org/ko/)
+![image](https://user-images.githubusercontent.com/94514664/204345073-c0428313-1906-4c65-8cb7-5204600f686c.png)

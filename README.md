@@ -51,3 +51,22 @@ Extra
 	Intel x86 Emulator Accelerator(HAXM installer)
   </code>
 </pre>
+
+### 6. 환경 변수 설정 (윈도우+x => 시스템=> 고급시스템설정)
+<pre>
+  <code>
+  	JAVA_HOME 		c:\progrqm files\java\jdk1.8--
+	ANDROID_SDK_ROOT	C:\Users\사용자명\AppData\Local\Android\android-sdk
+	GRADLE_HOME		C:\gradle-3.5
+
+	Path 
+		%JAVA_HOME%\bin;
+		%ANDROID_HOME%\tools
+		%ANDROID_HOME%\platform-tools
+		%ANDROID_HOME%\build-tools
+		%ANDROID_HOME%\cmdline-tools\latest\bin
+		%ANDROID_HOME\emulator
+		%GRADLE_HOME%\bin
+		c:\HybridApp\apace-ant-1.9.16\bin
+  </code>
+</pre>

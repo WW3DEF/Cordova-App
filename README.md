@@ -14,14 +14,16 @@
 
 ## 3. Apache ant 설치하기
 [[Apache ant설치]](https://ant.apache.org/bindownload.cgi)
+![image](https://github.com/WW3DEF/Cordova-App/blob/main/image/Apache.png)   
 zip 풀어서 만들어둔 디렉토리에 두기
 
 ## 4. Gradle 설치하기
-[[Gradle설치]](https://gradle.org/releases/)
+[[Gradle설치]](https://gradle.org/releases/)   
+![image](https://github.com/WW3DEF/Cordova-App/blob/main/image/Gradle.png)   
 zip 풀어서 만들어둔 디렉토리에 두기
 
 ## 5. 안드로이드 스튜디오 설치
-[[Android Studio 설치]](https://developer.android.com/studio?gclid=Cj0KCQiA1ZGcBhCoARIsAGQ0kkqlYNEvfjGG-u08JWsbA7E9dTOs6sA8fT_wgGn3nzSHCYR6yCagOBQaAiktEALw_wcB&gclsrc=aw.ds)
+[[Android Studio 설치]](https://developer.android.com/studio?gclid=Cj0KCQiA1ZGcBhCoARIsAGQ0kkqlYNEvfjGG-u08JWsbA7E9dTOs6sA8fT_wgGn3nzSHCYR6yCagOBQaAiktEALw_wcB&gclsrc=aw.ds)   
 ![image](https://github.com/WW3DEF/Cordova-App/blob/main/image/AndroidStudio.png)
 ### 5.1 AVD로 NEXUS 5나 NEXUS 5S 만들기 ( API 29 ) 
 ![image](https://user-images.githubusercontent.com/94514664/204344362-9b5ad111-487f-43a5-8d40-714b8820f466.png)

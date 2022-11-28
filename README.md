@@ -139,3 +139,6 @@ Application 안에
   </code>
 </pre>
  넣기
+## 12. C:\Users\[사용자명]\.android 내에 있는 debug.keystore파일 삭제
+![image](https://user-images.githubusercontent.com/94514664/204347248-1d709cfd-d471-4c2f-a8f5-cd2ea8043e91.png)   
+(삭제가 되지 않을 경우에는 Ctrl+Alt+Del => 작업관리자에서 해당 프로세스 작업 끝내기 후에 삭제)

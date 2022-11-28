@@ -10,3 +10,7 @@
   md [디렉토리 명]
   </code>
 </pre>
+![image](https://user-images.githubusercontent.com/94514664/204341649-e1e44c9c-525c-4394-b42d-7847d9edfd7a.png)
+
+## 3. Gradle 설치하기
+[[Gradle설치]](https://gradle.org/releases/)

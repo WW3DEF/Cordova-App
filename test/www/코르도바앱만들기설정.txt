@@ -1,4 +1,4 @@
-1. JDK 설치
+1. JDK 설치.
 jdk-8u162-windows-x64.exe    		
 
 2.0  \hybridapp 디렉토리 만들기

@@ -177,6 +177,6 @@ CDN에서
 # AVD로 실행한 결과
 ![image](https://user-images.githubusercontent.com/94514664/204349313-616bddee-7470-4d4e-a15c-a6e62bc954e9.png)   
 ![image](https://user-images.githubusercontent.com/94514664/204349555-9a249cdd-7085-411c-8b52-825d0c603342.png)   
-![image](https://user-images.githubusercontent.com/94514664/204349671-59160a95-53f8-4bd5-94eb-f708fab34abc.png)
+![image](https://user-images.githubusercontent.com/94514664/204349671-59160a95-53f8-4bd5-94eb-f708fab34abc.png)   
 ![image](https://user-images.githubusercontent.com/94514664/204413120-eeb2bfde-72a3-463e-97d8-32f5b4181147.png)
 
